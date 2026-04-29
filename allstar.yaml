@@ -1,0 +1,12 @@
+# Allstar org-level configuration
+# https://github.com/ossf/allstar
+
+optConfig:
+  # Opt-in: only repos listed below are monitored
+  optOutStrategy: false
+  optInRepos:
+    - alphaloop
+
+# Open an issue when a policy fails
+issueLabel: allstar
+issueRepo: ""

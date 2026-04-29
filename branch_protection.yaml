@@ -1,0 +1,17 @@
+# Branch protection policy
+# Ensures default branch has protection rules
+
+optConfig:
+  optOutStrategy: false
+  optInRepos:
+    - alphaloop
+
+action: issue
+
+requireApproval: true
+requireCodeOwnerReviews: false
+dismissStale: true
+requireUpToDateBranch: true
+requireStatusChecks:
+  - "CI"
+enforceOnAdmins: false

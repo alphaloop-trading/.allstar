@@ -1,0 +1,9 @@
+# Binary artifacts policy
+# Flags committed binary files (executables, compiled objects)
+
+optConfig:
+  optOutStrategy: false
+  optInRepos:
+    - alphaloop
+
+action: issue

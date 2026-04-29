@@ -1,0 +1,9 @@
+# Security policy
+# Ensures SECURITY.md exists in the repo
+
+optConfig:
+  optOutStrategy: false
+  optInRepos:
+    - alphaloop
+
+action: issue

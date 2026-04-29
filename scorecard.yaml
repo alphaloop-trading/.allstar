@@ -1,0 +1,20 @@
+# Scorecard policy
+# Ensures repo maintains a minimum OpenSSF Scorecard score
+
+optConfig:
+  optOutStrategy: false
+  optInRepos:
+    - alphaloop
+
+action: issue
+checks:
+  - name: Binary-Artifacts
+    score: 8
+  - name: Branch-Protection
+    score: 6
+  - name: Dangerous-Workflow
+    score: 8
+  - name: Security-Policy
+    score: 8
+  - name: Vulnerabilities
+    score: 8

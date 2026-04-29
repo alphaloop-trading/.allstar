@@ -1,0 +1,10 @@
+# Dangerous workflow policy
+# Flags GitHub Actions workflows with known dangerous patterns
+# (e.g., pull_request_target with explicit checkout of PR head)
+
+optConfig:
+  optOutStrategy: false
+  optInRepos:
+    - alphaloop
+
+action: issue
